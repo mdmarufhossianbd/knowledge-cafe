@@ -1,8 +1,10 @@
+import profile from '../../assets/images/profile.png';
+
 const Header = () => {
     return (
-        <div className='flex justify-between items-center mt-12'>
+        <div className='flex justify-between items-center py-12 mx-48 border-b-2 border-gray-600'>
             <h1 className='text-3xl'>Kowlede Cafe</h1>
-            <img src="../images/profile.png" alt="" />
+            <img src={profile} alt="" />
         </div>
     );
 };
